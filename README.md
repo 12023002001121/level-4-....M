@@ -1,10 +1,10 @@
 # Midnight Credential-Gated Anonymous Voting Suite (Level 4)
 
-[![Continuous Integration](https://github.com/12023002001121/level-4-Waxing-Gibbous/actions/workflows/ci.yml/badge.svg)](../../actions)
+[![Continuous Integration](https://github.com/12023002001121/level-4-....M/actions/workflows/ci.yml/badge.svg)](../../actions)
 
 ## 🌐 Live Deployments & Demo Links
 * **Live Web dApp**: [Vercel Production Deployment](https://level4-new-moon.vercel.app/)
-* **GitHub Repository**: [12023002001121/level-4-Waxing-Gibbous](https://github.com/12023002001121/level-4-Waxing-Gibbous)
+* **GitHub Repository**: [12023002001121/level-4-....M](https://github.com/12023002001121/level-4-....M)
 * **Author GitHub Profile**: [12023002001121](https://github.com/12023002001121)
 * **Video Walkthrough Demo**: [Google Drive Demo Walkthrough](https://drive.google.com/file/d/1lTlPkBaDHtH_Q47eNv1-s2BAS7MKlnxW/view?usp=sharing)
 * **Official Product X (Twitter)**: [@aryan52815](https://x.com/aryan52815)

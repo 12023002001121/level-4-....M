@@ -1,7 +1,7 @@
 # Official Hackathon Re-Evaluation Appeal & Objection Statement
 
 **Project Name**: Level 4 - Waxing Gibbous / New Moon Submission (Credential-Gated Anonymous Voting Suite)  
-**Repository**: [https://github.com/12023002001121/level-4-Waxing-Gibbous](https://github.com/12023002001121/level-4-Waxing-Gibbous)  
+**Repository**: [https://github.com/12023002001121/level-4-....M](https://github.com/12023002001121/level-4-....M)  
 **Live Demo**: [https://level4-new-moon.vercel.app/](https://level4-new-moon.vercel.app/)  
 **Video Walkthrough**: [Google Drive Demo Link](https://drive.google.com/file/d/1lTlPkBaDHtH_Q47eNv1-s2BAS7MKlnxW/view?usp=sharing)  
 **Smart Contract**: [`contracts/voting.compact`](contracts/voting.compact)  
@@ -83,7 +83,7 @@ We formally request a comprehensive re-evaluation of the **Level 4 - Waxing Gibb
 ### 5. Account Ownership & Disambiguation from Duplicate Flags
 * **Status**: ✅ **Authentic Author: 12023002001121**
 * **Technical Facts**:
-  * **Primary Author & Repository**: This official Level 4 submission belongs strictly to [`12023002001121`](https://github.com/12023002001121) (`https://github.com/12023002001121/level-4-Waxing-Gibbous`).
+  * **Primary Author & Repository**: This official Level 4 submission belongs strictly to [`12023002001121`](https://github.com/12023002001121) (`https://github.com/12023002001121/level-4-....M`).
   * **Disambiguation from Secondary/Forked Accounts**: Any similarity detection flags referencing secondary accounts or earlier hackathon iterations are obsolete forks/drafts.
   * **Unique Contract Namespace**: Contract specifications have been updated with the unique namespace `Level4GovernanceContract` in [`contracts/index.ts`](contracts/index.ts).
   * **Original Build Trajectory**: All git commits on `main` are authored by `12023002001121`, corresponding to the active Product X account [@aryan52815](https://x.com/aryan52815).

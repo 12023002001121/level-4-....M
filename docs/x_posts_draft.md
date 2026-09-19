@@ -68,7 +68,7 @@ Here is the updated 6-post build-in-public sequence documenting the evolution an
 > Try the sandbox simulator or connect your Freighter Wallet, pick an allowlist credential, and cast your ballot.
 > 
 > 🌐 Live Demo: https://level4-new-moon.vercel.app/
-> 📦 GitHub Repo: https://github.com/12023002001121/level-4-Waxing-Gibbous
+> 📦 GitHub Repo: https://github.com/12023002001121/level-4-....M
 > 🔗 Contract: `0201d4a8e635fb8529f12384aee10069a0e0d6b100fa11076b10076a0e0a12cd`
 > 
 > #MidnightNetwork #Cardano #ZKProof #Buidl
