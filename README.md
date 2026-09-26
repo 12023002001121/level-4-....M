@@ -7,9 +7,9 @@
 * **GitHub Repository**: [12023002001121/level-4-....M](https://github.com/12023002001121/level-4-....M)
 * **Author GitHub Profile**: [12023002001121](https://github.com/12023002001121)
 * **Video Walkthrough Demo**: [Google Drive Demo Walkthrough](https://drive.google.com/file/d/1lTlPkBaDHtH_Q47eNv1-s2BAS7MKlnxW/view?usp=sharing)
-* **Official Product X (Twitter)**: [@aryan52815](https://x.com/aryan52815)
+* **Official Product X (Twitter)**: [@NewMoonVoting](https://x.com/NewMoonVoting)
 * **Build-in-Public Thread & ZK Updates**: Documented in [`docs/x_posts_draft.md`](docs/x_posts_draft.md)
-* **Preprod Deployed Contract Address**: `0201d4a8e635fb8529f12384aee10069a0e0d6b100fa11076b10076a0e0a12cd`
+* **Preprod Deployed Contract Address**: `b3b647f1c1f51685bc94821a00a463a5bd8d9e6eb1f36a5a044d7159c9d4b00a`
 * **Midnight Preprod Explorer Indexer**: [Midnight Preprod GraphQL](https://indexer.testnet.midnight.network/api/v1/graphql)
 
 ---
