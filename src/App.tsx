@@ -9,13 +9,17 @@ import {
   MerkleTree3,
   DEFAULT_ADMIN_SECRET,
   DEMO_CREDENTIALS
-} from './votingApi';
+} from './api/votingApi';
 
 interface Toast {
   id: string;
   type: 'success' | 'error' | 'info';
   message: string;
 }
+
+import { Toasts } from './components/Toasts';
+import { Header } from './components/Header';
+import { InfoBanner } from './components/InfoBanner';
 
 export function App() {
   // Mode selection: 'simulator' (default sandbox) or 'freighter' (live wallet)
@@ -387,61 +391,15 @@ export function App() {
 
   return (
     <div className="app-container">
-      {/* Toast Notifications */}
-      <div className="toast-container">
-        {toasts.map((toast) => (
-          <div key={toast.id} className={`toast toast-${toast.type}`}>
-            {toast.type === 'info' && <div className="spinner" />}
-            <div>{toast.message}</div>
-          </div>
-        ))}
-      </div>
-
-      {/* Header */}
-      <header className="header">
-        <div className="logo-container">
-          <div className="logo-icon">M</div>
-          <div>
-            <h1 className="logo-title">Midnight Private Voting</h1>
-            <div className="logo-subtitle">
-              <span>Level 4 Credential-Gated Governance Suite</span>
-              <span>•</span>
-              <span className="live-indicator">
-                <span className="pulse-dot" /> Block #{blockHeight}
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div className="header-status-group">
-          {mode === 'simulator' ? (
-            <span className="badge badge-simulator">⚡ Sandbox Simulator</span>
-          ) : (
-            <span className="badge badge-freighter">
-              🦊 Freighter Connected ({walletAddress?.slice(0, 6)}...{walletAddress?.slice(-4)})
-            </span>
-          )}
-          
-          {mode === 'simulator' && (
-            <button className="btn btn-secondary btn-action" onClick={handleResetSandbox}>
-              Reset Sandbox
-            </button>
-          )}
-          {mode === 'simulator' && (
-            <button className="btn btn-primary btn-action" onClick={handleConnectWallet}>
-              Connect Freighter
-            </button>
-          )}
-        </div>
-      </header>
-
-      {/* Privacy Guarantee Info Banner */}
-      <div className="info-banner glass-panel">
-        <span className="info-banner-icon">🛡️</span>
-        <div>
-          <strong>Level 4 Zero-Knowledge Privacy Architecture:</strong> Only authorized voters whose credential commitments form the depth-3 Merkle Tree allowlist are permitted to vote. Client-side ZK-SNARK circuits prove tree inclusion in zero-knowledge and register deterministic nullifiers on-chain. Observer anonymity is mathematically absolute: no link exists between voter secret keys, wallet addresses, or YES/NO ballots.
-        </div>
-      </div>
+      <Toasts toasts={toasts} />
+      <Header
+        blockHeight={blockHeight}
+        mode={mode}
+        walletAddress={walletAddress}
+        handleResetSandbox={handleResetSandbox}
+        handleConnectWallet={handleConnectWallet}
+      />
+      <InfoBanner />
 
       {/* Main Grid */}
       <div className="grid-main">
