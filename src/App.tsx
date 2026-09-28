@@ -10,6 +10,7 @@ import {
   DEFAULT_ADMIN_SECRET,
   DEMO_CREDENTIALS
 } from './votingApi';
+import { Footer } from './components/Footer';
 
 interface Toast {
   id: string;
@@ -1185,8 +1186,11 @@ if (disclose(voteChoice())) {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+
