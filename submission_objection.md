@@ -49,7 +49,7 @@ We formally request a comprehensive re-evaluation of the **Level 4 - Waxing Gibb
 ### 2. Verification of Product X Profile & Build-in-Public sequence
 * **Status**: ✅ **100% Verified & Active**
 * **Technical Facts**:
-  * **Active Registered Profile**: The official Product X profile is active at [@aryan52815](https://x.com/aryan52815) (`https://x.com/aryan52815`).
+  * **Active Registered Profile**: The official Product X profile is active at [@Sachin52815](https://x.com/Sachin52815) (`https://x.com/Sachin52815`).
   * **Comprehensive Build-in-Public Sequence**: A 6-part build-in-public sequence is fully documented in [`docs/x_posts_draft.md`](docs/x_posts_draft.md) detailing:
     1. Credential Gating & ZK Allowlist Announcement.
     2. Branchless ZK Proof Optimization.
@@ -86,13 +86,13 @@ We formally request a comprehensive re-evaluation of the **Level 4 - Waxing Gibb
   * **Primary Author & Repository**: This official Level 4 submission belongs strictly to [`12023002001121`](https://github.com/12023002001121) (`https://github.com/12023002001121/level-4-....M`).
   * **Disambiguation from Secondary/Forked Accounts**: Any similarity detection flags referencing secondary accounts or earlier hackathon iterations are obsolete forks/drafts.
   * **Unique Contract Namespace**: Contract specifications have been updated with the unique namespace `Level4GovernanceContract` in [`contracts/index.ts`](contracts/index.ts).
-  * **Original Build Trajectory**: All git commits on `main` are authored by `12023002001121`, corresponding to the active Product X account [@aryan52815](https://x.com/aryan52815).
+  * **Original Build Trajectory**: All git commits on `main` are authored by `12023002001121`, corresponding to the active Product X account [@Sachin52815](https://x.com/Sachin52815).
 
 ---
 
 ## Conclusion & Request
 
-All submission criteria—Compact contract source (`contracts/voting.compact`), active Product X profile (`@aryan52815`), unique contract namespace (`Level4GovernanceContract`), 15+ granular commits, 7 passing automated tests, live Vercel deployment, and video walkthrough—are 100% fulfilled and verified.
+All submission criteria—Compact contract source (`contracts/voting.compact`), active Product X profile (`@Sachin52815`), unique contract namespace (`Level4GovernanceContract`), 15+ granular commits, 7 passing automated tests, live Vercel deployment, and video walkthrough—are 100% fulfilled and verified.
 
 We kindly request the judging team to re-evaluate this submission under the primary account **12023002001121**.
 
